@@ -1,1 +1,30 @@
-/* Start coding here */
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: khaki;
+  padding: 30px;
+  border: 16px solid lightgrey;
+  outline: 16px solid black;
+  box-sizing: border-box;
+  height: 100vh;
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  border: 24px solid crimson;
+  pointer-events: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+  margin: 0;
+}

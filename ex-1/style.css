@@ -1,1 +1,37 @@
-/* Start coding here */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: white;
+  }
+  
+  header {
+    background-color: #8da6b0;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #2f4f68;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .blog-card {
+    background-color: #dde5ea;
+    border: 2px solid #2f4f68;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+  }
+  
+  .blog-card h2 {
+    color: #2f4f68;
+  }
+  
+  .image-placeholder {
+    background-color: #ddd;
+    height: 100px;
+    margin: 10px 0;
+  }

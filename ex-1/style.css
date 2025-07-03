@@ -1,1 +1,47 @@
 /* Start coding here */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-box {
+    padding: 30px;
+    background-color: lightblue;
+}
+
+.nav-title {
+    color: #183B56;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.container {
+    padding: 30px;
+}
+
+.travel-box {
+    border: 3px solid #183B56;
+    padding: 10px;
+    width: 536px;
+    background-color: #E4E9ED;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.box-title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #183B56;
+}
+
+.box-image {
+    width: 404.75px;
+    height: 120px;
+}
+
+.box-detail {
+    font-size: 16px;
+    font-weight: 400;
+    color: #183B56;
+}

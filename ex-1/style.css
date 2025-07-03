@@ -1,1 +1,46 @@
-/* Start coding here */
+html{
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    background-color: #92aabd;
+    width: 100vw;
+    font-size: 1rem;
+    padding: 40px ;
+    color: #183b56;
+    height: 120px;
+    margin-top: 0; 
+  }
+
+header{
+    font-size: 1rem;
+}
+.image{
+    width: 20vw;
+    height: 15vh;
+}
+.container{
+    border: 5px solid #2C4053;
+    background-color: #92A9BD;
+    color: #2C4053;
+    padding: 10px 20px 10px 20px;
+    width: 30vw;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.description{
+    padding-top: 10px
+}
